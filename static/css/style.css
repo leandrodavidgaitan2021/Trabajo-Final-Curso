@@ -1,0 +1,31 @@
+/* Definición inicial para pantallas muy pequeñas */
+.carousel-item {
+  height: 200px; /* Altura del carrusel para pantallas muy pequeñas */
+}
+
+/* Media queries para ajustar la altura según la resolución */
+@media (min-width: 576px) {
+  .carousel-item {
+    height: 250px; /* Altura del carrusel para pantallas pequeñas */
+  }
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.75; /* Opaca la imagen */
+}
+
+
+.imagen {
+  height: 150px;
+  width: 150px;
+}
+
+.texto-custom {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  color: black;
+  
+}
+
